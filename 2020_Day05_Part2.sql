@@ -1057,7 +1057,7 @@ BEGIN
 
 		SELECT @innerLoopCounter +=1;
 	END
-	SET @innerLoopCounter =1;
+	SET @innerLoopCounter =8;
 
 	SELECT TOP(1) @answer = n FROM @num
 	UPDATE @pass
